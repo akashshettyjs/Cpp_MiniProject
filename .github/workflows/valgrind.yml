@@ -19,5 +19,5 @@ jobs:
         sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
     - name: make test
       run: |
-        g++ main.cpp dataset.csv
+        g++ ./Mini-Project/MiniProjectCPP/main.cpp
         valgrind ./a.out
