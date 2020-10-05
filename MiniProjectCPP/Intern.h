@@ -14,8 +14,8 @@ public:
     {
 
     }
-    intern(string a,string b,string c,int d,int e,int f,int g, int i,  int j)
-        :Employee(a,b,c,d,e,f,g,i,j)
+    intern(string &a,string &b,string &c,int d,int e,int f,int g, int i,  int j)
+        :Employee(&a,&b,&c,d,e,f,g,i,j)
     {
 
     }

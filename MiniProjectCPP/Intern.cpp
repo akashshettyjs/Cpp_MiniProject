@@ -3,12 +3,12 @@
 #include<list>
 #include "Employee.h"
 #include<iterator>
-#include "Intern.cpp"
+#include "Intern.h"
 #include <bits/stdc++.h>
 
 void intern::readit(list<Employee> &thelist)
 {
-    string S, T, A,B,C,D,E,F,G,H,I;
+    string S,A,B,C,D,E,F,G,H,I;
     fstream fin;
     fin.open("dataset1.csv", ios::in);
     while( getline(fin, S))
@@ -106,10 +106,11 @@ void intern::pattern_generator(list<Employee> &thelist,int iid)
 
         f2out<<"TOTAL:"<<iter->total<<"\n\n"<<"PERCENTILE:"<<iter->percentile<<"\n";
 
-
+f2out.close();
         }
 
     }
+
 }
 void intern::printnrows(list<Employee> &thelist,int n)
 {

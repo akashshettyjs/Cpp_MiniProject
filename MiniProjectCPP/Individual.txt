@@ -1,21 +1,21 @@
-NAME:Chester
-ID:2656
-Date Of Birth:12/19/1998
-STATE:Tamilnadu
-CPP Programming:51
-PYTHON:92
-LINUX:67
-SDLC:43
+NAME:sai
+ID:2643
+Date Of Birth:11/15/1998
+STATE:Karnataka
+CPP Programming:82
+PYTHON:91
+LINUX:45
+SDLC:32
 
 
 
-|>>>>>>>>>>>>(51)C Plus Plus
-|>>>>>>>>>>>>>>>>>>>>(92)Python
-|>>>>>>>>>>(43)SDLC
-|>>>>>>>>>>>>>>(67)LINUX
+|>>>>>>>>>>>>>>>>>>(82)C Plus Plus
+|>>>>>>>>>>>>>>>>>>>>(91)Python
+|>>>>>>>>(32)SDLC
+|>>>>>>>>>>(45)LINUX
 
 
 
-TOTAL:253
+TOTAL:250
 
-PERCENTILE:90
+PERCENTILE:85
