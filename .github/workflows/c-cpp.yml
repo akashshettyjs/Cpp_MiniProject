@@ -16,5 +16,5 @@ jobs:
     - name: configure
       run: find . -type f -name configure
     - name: make
-      run: make
+      run: make MakeFile
     
